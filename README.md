@@ -1,4 +1,7 @@
 # ECG Anomaly Detection
+## Abstract
+Electrocardiogram (ECG) anomaly detection is critical for early cardiovascular diagnosis, b8t precise localization of anomalous segments in multi-lead signals remains challenging. This study presents a weakly-supervised deep learning framework for 12-lead ECG anomaly detection and visual localization. Using a 1D ResNet architecture, the model automatically extracts complex spatiotemporal features from preprocessed 12-lead signals for binary and multi-label classification. To address the black-box nature of deep networks and facilitate clinical review, 1D Grad-CAM is integrated to generate activation maps that pinpoint specific anomalous waveform regions. This approach eliminates the need for expensive segment-level annotations while offering high diagnostic accuracy and spatial interpretability for continuous clinical monitoring.
+
 ## License
 This project uses the PTB-XL dataset licensed under **[CC BY 4.0](https://physionet.org/content/ptb-xl/view-license/1.0.3/)**.
 
