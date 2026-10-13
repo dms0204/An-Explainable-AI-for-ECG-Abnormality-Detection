@@ -1,5 +1,5 @@
 ### Data Documentation
-This document describes the exact data used by PTB-XL dataset
+This document introduces and describes the exact data used by PTB-XL dataset
 
 ### 1. Official Dataset
 
