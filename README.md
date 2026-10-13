@@ -5,7 +5,7 @@ This project uses a 1D ResNet model to detect ECG anomalies from 12-lead signals
 This project uses the PTB-XL dataset licensed under **[CC BY 4.0](https://physionet.org/content/ptb-xl/view-license/1.0.3/)**.
 
 ## Result
-## Explainability with Grad-CAM
+### Explainability with Grad-CAM
 
 To understand model decision-making, Grad-CAM attention maps are applied to 1D ECG signals (Lead II). The visualizations highlight regions that most strongly influence the abnormality predictions:
 
