@@ -8,7 +8,6 @@ To understand model decision-making, Grad-CAM attention maps are applied to 1D E
 | :---: | :---: |
 | ![Patient 1130](figure/ecg_gradcam_patient_1130.png) | ![Patient 1294](figure/ecg_gradcam_patient_1294.png) |
 | **True**: Normal \| **Pred**: Normal (9.5% Anomaly Score) | **True**: Abnormal \| **Pred**: Abnormal (92.1% Anomaly Score) |
-
 ### Key Observations
 * **Normal Signal (Patient #1130):** The model assigns consistently low attention weights across the entire sequence (faint/near-zero highlights), indicating no salient morphological anomalies detected.
 * **Abnormal Signal (Patient #1294):** Strong attention activation (dark red bands) directly aligns with key wave deformities and abnormal ventricular complexes, demonstrating that the model accurately grounds its predictions on clinically relevant heartbeat irregularities.
