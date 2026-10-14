@@ -1,11 +1,7 @@
 # ECG Anomaly Detection
 This project uses a 1D ResNet model to detect ECG anomalies from 12-lead signals through binary and multi-label classification. 1D Grad-CAM is applied to highlight important waveform regions, improving model interpretability without requiring segment-level annotations.
 
-## License
-This project uses the PTB-XL dataset licensed under **[CC BY 4.0](https://physionet.org/content/ptb-xl/view-license/1.0.3/)**.
-
 ## Result
-
 To understand model decision-making, Grad-CAM attention maps are applied to 1D ECG signals (Lead II). The visualizations highlight regions that most strongly influence the abnormality predictions:
 
 | Normal Case (Patient #1130) | Abnormal Case (Patient #1294) |
@@ -18,7 +14,6 @@ To understand model decision-making, Grad-CAM attention maps are applied to 1D E
 * **Abnormal Signal (Patient #1294):** Strong attention activation (dark red bands) directly aligns with key wave deformities and abnormal ventricular complexes, demonstrating that the model accurately grounds its predictions on clinically relevant heartbeat irregularities.
 
 ## Quick Start
-
 To quickly evaluate and run the project via Google Colab / Google Drive:
 
 1. **Access Google Drive Folder:**  
